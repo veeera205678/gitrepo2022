@@ -10,9 +10,9 @@
     - name: install tree on ubuntu nodes
       apt:
         name: tree
-        state: present
+        state: absent
 
     - name: install wget on ubuntu nodes
       apt:
         name: wget
-        state: present
+        state: absent
